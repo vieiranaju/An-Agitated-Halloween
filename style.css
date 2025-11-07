@@ -1,0 +1,74 @@
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.site-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.site-header p {
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.downloads ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.downloads li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.sobre {
+  margin-top: 2rem;
+}
+
+.sobre h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.sobre p {
+  margin-bottom: 1rem;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #ecf0f1;
+  color: #555;
+  margin-top: 4rem;
+}
